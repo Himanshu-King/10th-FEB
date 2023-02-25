@@ -1,0 +1,346 @@
+img
+{
+    height:30px;
+    width:30px;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.body
+{
+    /* Body CSS */
+    background-color: rgb(17,24,39);
+    width: 98vw;
+    height: 96vh;
+    margin: 1%;
+    border-radius: 50px;
+
+    /* Flex CSS */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+header
+{
+    /* border: 1px solid black; */
+    width: 92vw;
+    height: 9vh;
+
+    /* Header Flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.danda
+{
+    display: none;
+}
+ul
+{
+    /* UL Flex */
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 2%;
+
+
+    /* border: 1px solid aqua; */
+    width: 30vw;
+    margin-left: 63.5vw;
+    color: white;
+    font-size: calc(6px + 1vw);
+}
+li
+{
+    /* border: 1px solid pink; */
+
+    /* LI Flex */
+    /* display: flex; */
+    align-self: center;
+    /* width:20vw; */
+}
+li:hover
+{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+.home
+{
+    background-color: rgb(88,89,197);
+    font-size: 0.8em;
+    align-self: center;
+    height: 4vh;
+    width: 3.5vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home:hover
+{
+    color:rgb(88,89,197);
+    background-color: white;
+    border: 2px solid rgb(88,89,197);
+}
+section
+{
+    width: 92vw;
+    height: 80vh;
+    /* border: 1px solid black; */
+
+    /* Section flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.top
+{
+    display: flex;
+    height: 30.5vh;
+    /* border: 1px solid green; */
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+}
+.hi
+{
+    /* border: 1px solid rgb(187, 36, 36); */
+    color: white;
+    display: flex;
+}
+.hi img
+{
+    width: calc(10px + 1vw);
+    height: calc(10px + 1vw);
+}
+.hi p
+{
+    padding-top: 3%;
+    font-size: calc(10px + 1vw);
+}
+
+.left1
+{
+    /* border: aqua 1px solid; */
+    width: 20vw;
+    height:13.8vw;
+}
+.left1 h1
+{
+    font-size: calc(10px + 2vw);
+    color: white;
+}
+.left1 > p
+{
+    font-size: calc(10px + 1vw);
+    color: rgb(176,178,83);
+}
+.right1
+{
+    /* border: 1px solid aqua; */
+    height:13.8vw;
+    width: 25vw;
+}
+.right1 img
+{
+    height: 13.8vw;
+    width: 25vw;
+}
+section > p, footer p
+{
+    /* border: 1px solid green; */
+    overflow: visible;
+    height: 3vh;
+    color: white;
+    font-size: calc(5px + 1vw);
+    text-decoration: underline ;
+    /* text-decoration-line: underline; */
+    text-decoration-color: blue;
+    letter-spacing: 0.1em;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 5px;
+}
+section p
+{
+    position: relative;
+    bottom: 0.7vh;
+}
+.medium
+{
+    /* Medium Flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+
+    height: 22.5vh;
+    /* border: 1px solid green; */
+    width: 90vw;
+}
+.medium div, .bottom div
+{
+    /* border: 1px solid aqua; */
+    width: 15vw;
+    height: calc(10px + 9.6vw);
+    overflow: visible;
+}
+.medium img, .bottom img
+{
+    /* border: 1px solid pink; */
+    height:calc(10px + 9vw);
+    width: 15vw;
+
+    /* position CSS */
+    position: relative;
+    bottom: 6%;
+}
+.medium p, .bottom p
+{
+    position: relative;
+    bottom:15%;
+    color: white;
+    overflow: visible;
+    display: grid;
+    place-items: center;
+    font-size: calc(5px + 0.9vw);
+}
+.bottom
+{
+    /* Bottom Flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+
+    height: 22.5vh;
+    /* border: 1px solid green; */
+    width: 90vw;
+}
+footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    width:50vw;
+    overflow: visible;
+}
+footer div
+{
+    display: flex;
+    margin: 1px;
+    gap: 10%;
+}
+footer p
+{
+    position: relative;
+    overflow: visible;
+    bottom: 1.2vh;
+}
+footer img
+{
+    height:2.5vh;
+}
+footer img:hover
+{
+    background-color: white;
+    cursor: pointer;
+}
+.git:hover
+{
+    background-color: blue;
+}
+@media(max-width: 1188px) 
+{
+    section > p, footer p
+    {
+        font-size: 16.88px;
+    }
+}
+@media (max-width: 680px)
+{
+    ul
+    {
+        display: none;
+    }
+    .danda
+    {
+        display:block;
+        /* border: 1px solid green; */
+        width: calc(25px + 1vw);
+        height: calc(25px + 1vw);
+        margin-left: 4vw;
+    }
+    .danda:hover
+    {
+        cursor: pointer;
+        background-color: blue;
+        padding: 0.25%;
+    }
+    .top
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .hi
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left1 
+    {
+        height: 15.2vh;
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right1
+    {
+        height: 15.3vh;
+        width:30vw;
+        display: flex;
+        justify-content: center;
+    }
+    .right1 img
+    {
+        height: 15.3vh;
+    }
+    section > p, footer p
+    {
+        font-size: calc(0.8em + 0.6vw);
+    }
+    .medium, .bottom
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .medium p, .bootom p
+    {
+        bottom: 15%;
+    }
+    .medium div, .bottom div
+    {
+        height: 11.25vh;
+    }
+    .medium img, .bottom img
+    {
+        height: 71px;
+    }
+    footer img
+    {
+        height: calc(10px + 0.615vw) ;
+        width: calc(24px + 0.89vw);
+    }
+}
